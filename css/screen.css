@@ -48,6 +48,13 @@ html {
         font-size: 20px;
         line-height: 1.6;
     }
+    .iets-flex-hp {
+        display: flex;
+    }
+}
+
+div {
+    display: block;
 }
 
 head {
@@ -231,6 +238,11 @@ a:focus {
     max-width: 70.5em; /* 70.5 * 16px = 1128px */
 }
 
+@media (min-width: 768px){
+    .o-container {
+        max-width: 56.4;
+    }
+}
 /*
     Objects: Layout
     ---
