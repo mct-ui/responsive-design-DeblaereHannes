@@ -507,6 +507,52 @@ a:focus {
 }
 
 /*
+    Component: footer
+    ---
+    Main footer of the website
+*/
+
+.c-footer {
+}
+
+.c-footer__logo {
+}
+
+.c-footer__nav {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .c-footer {
+    }
+
+    .c-footer__logo {
+    }
+
+    .c-footer__nav {
+    }
+}
+
+@media (min-width: 992px) {
+    .c-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .c-footer__logo {
+    }
+
+    .c-footer__logo .c-logo {
+    }
+
+    .c-footer__nav {
+        display: block;
+    }
+}
+
+
+/*
     Component: CTA link
     ---
     Small cta link with custom animation
