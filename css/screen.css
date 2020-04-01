@@ -237,14 +237,9 @@ a:focus {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 70.5em; /* 70.5 * 16px = 1128px */
+    max-width: 56.4em; /* 56.4 * 20px = 1128px */
 }
 
-@media (min-width: 768px){
-    .o-container {
-        max-width: 56.4;
-    }
-}
 /*
     Objects: Layout
     ---
